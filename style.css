@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    height: 450px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.container {
+    margin: 5px auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: whitesmoke;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 6px 5px rgba(0, 0, 0, 0.44);
+}
+
+.main-content {
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.orange {
+    color: rgb(255, 115, 0);
+}
+
+.user-info h1, h4 {
+    margin:24px 0 40px 88px;
+}
+
+.user-info p {
+    margin: 24px 0 50px 88px;
+}
+
+.projects h3 {
+    margin:24px 0 8px 88px;
+}
+
+.projects ol {
+    margin:24px 0 40px 88px;
+}
+
+.list li {
+    list-style-type: none;
+}
+
+.list li::before {
+    content: '1.';
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.bold-style {
+    font-weight: bold;
+}
+
+.work-experience h3 {
+    margin-top: 47px;
+    margin-left: 88px;
+}
+
+.work-experience p {
+    margin: 24px 0 40px 88px;
+}
+
+.work-experience ul {
+    margin: 10px 0 40px 88px;
+}
+
+.work-experience li {
+    margin-bottom: 8px;
+}
+
+.post4 h3 {
+    margin:24px 0 40px 88px;
+}
+
+.post4 p {
+    margin-left: 88px;
+    margin-bottom: 8px;
+}
+
+.left-menu  {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgba(30, 41, 57, 1);
+    color: whitesmoke;
+    box-shadow: 5px 0px 5px black;
+}
+
+.left-menu a {
+    color:cornsilk;
+    text-decoration: none;
+}
+
+.left-menu h3 {
+    margin: 47px 0 0 47px;
+}
+
+.list-tech-skills li {
+    list-style-type: none;
+    margin-left: 47px;
+}
+
+.list-tech-skills li::before {
+    color: rgb(255, 115, 0);
+    content: '•';
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.list-soft-skills li {
+    list-style-type: none;
+    margin-left: 47px;
+}
+
+.list-soft-skills li::before {
+    color: rgb(255, 115, 0);
+    content: '•';
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.contacts h3 {
+    margin: 51px 0 30px 40px;
+}
+
+.contacts p {
+    margin: 8px 0 8px 40px;
+}
+
+.contacts a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.tech-skills h3 {
+    margin: 51px 0 0 40px;
+}
+
+.tech-skills ul {
+    margin-top: 30px;
+    margin-bottom: 47px;
+}
+
+.tech-skills li {
+    margin-bottom: 8px;
+    margin-left: 40px;
+}
+
+.soft-skills h3 {
+    margin: 51px 0 0 40px;
+}
+
+.soft-skills ul {
+    margin-top: 30px;
+    margin-bottom: 47px;
+}
+
+.soft-skills li {
+    margin-bottom: 8px;
+    margin-left: 40px;
+}
